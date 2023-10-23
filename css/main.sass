@@ -1,0 +1,56 @@
+$base-color: #3ac162
+$black-bg:rgba(0, 0, 0, 0.353)
+.main-slider
+    background-image: url('/assets/images/hero-bg.jpg')
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+    background-repeat: no-repeat
+    min-height: 500px
+    position: relative
+    z-index: -2
+
+.main-slider 
+    h1
+        font-size: 3rem
+        font-weight: 900
+.slide
+        min-height: 500px
+        padding: 10% 0  
+.main-slider
+    &::before
+        content: ''
+        position: absolute
+        background-color: $black-bg
+        left: 0
+        top: 0
+        bottom: 0
+        right: 0
+        z-index: -1
+.z-index
+           position: absolute
+           top: 50%
+           left: 50%
+           transform: translate(-50%, -50%)
+
+#details
+    h2
+        font-size: 2rem
+        font-weight: 900
+
+.fw-size
+    font-size: 3rem!important
+
+#blog
+    >h4
+      font-size: 0.9rem
+      &::after
+        display: inline-block
+        margin-left: 5px
+        content: ''
+        width: 90px
+        height: 1px
+        background-color: $base-color
+
+    
+    

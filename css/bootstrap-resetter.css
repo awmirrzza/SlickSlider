@@ -1,0 +1,13 @@
+.bg-success, .btn-success {
+  background-color: #3ac162 !important;
+}
+
+.text-success {
+  color: #3ac162 !important;
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1240px !important;
+  }
+}/*# sourceMappingURL=bootstrap-resetter.css.map */
